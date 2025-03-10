@@ -1,0 +1,34 @@
+Notite:
+a) test laborator sapt viitoare:
+	ziua:
+b) prezentare proiect sapt viitoare:
+   ziua:
+   Program: 
+	06:20 - 
+	06:30 - 
+   
+Suma maximala sir:
+a) sortare + luam primele k numere
+	complexitatea: 
+		complex(algo de sortare):
+			Bubblesort: O(n^2)
+			Quicksort: O(nlogn)
+		complex (luam primele k numere): O(k) --> 0(n)
+b) for (k ori) ===> la fiecare pas calculam maximala ---> 
+		Complex(for de k ori) * complexitatea fiecarui pas unde selectam maximala
+		
+		Complex (for k ori) ---> O(n)
+		*
+		Complex (maxim multime) --> O(n)
+		
+		---> O (n * n ) = O(n2).
+		
+		
+
+Prob 2:
+	typedef struct Activitati {
+	 unsigned char Ti;
+	 unsigned char Tf;
+     };
+	 
+Activitati tablouAct[10];

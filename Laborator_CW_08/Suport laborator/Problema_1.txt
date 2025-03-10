@@ -1,0 +1,26 @@
+1. Scrieti un program care citeste dintr-un fisier in.txt un sir de numere intr-o stiva. 
+Sa se extraga din stiva numere pana la intalnirea unui numar mai mare decat 7 si sa se depuna in fisier si pentru elementele ramase in stiva
+sa se numere numarul de biti de 1. Daca primul numar extras este mai mare decat 7, atunci pentru fiecare numar se vor interschimba bitii 2 cu 5.
+
+in.txt
+4
+5
+6
+9
+12
+26
+98
+123
+90
+
+out.txt
+4
+5
+6
+2
+1
+3
+3
+6
+4
+

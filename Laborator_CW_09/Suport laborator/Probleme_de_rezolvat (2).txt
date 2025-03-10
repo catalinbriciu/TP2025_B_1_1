@@ -1,0 +1,35 @@
+
+Problema de rezolvat:
+
+1. Se citesc dintr-un fisier in.txt un set de numere naturale (pe 32 biti). Sa se implementeze urmatoarele operatii, iar apoi sa se depuna 
+in fisier rezultatul fiecarei operatii:
+a) sa se sorteze sirul citit in ordine crescatoare a numerelor folosing o metoda cunoscuta si sa se depuna sirul sortat in fisierul out.txt
+b) sa se caute in sirul sortat utilizand cautarea binara, numarul de pe pozitia 2, in forma complementata. (e.g. daca elementul de pe pozitia 
+2 este 0x23 atunci numarul care se cauta in sir este 0xBA). Sa se depuna pozitia pe care se gaseste numarul. Daca acesta nu este gasit, atunci
+se va depune 0.
+c) Pentru toate numerele din sir, se va seta bitul 3 si se vor depune toate elementele sirului in out.txt
+d) Pentru toate numerele din sir, se va numara totalul de biti de 1 si se va depune in fiser.
+e) sa se implementeze o functie care copiaza sirul rezultat la punctul a) intr-un alt sir destinatie care va contine copia primului sir.
+Prototipul functie va fi void memcopy( tip_32_biti * dest, tip_32_biti * src, tip_32_biti length);
+
+
+1. Se citesc n numere (n > 3) intregi fara semn (16 biti) din fisierul in.txt. Aceastea se vor depune 
+intr-o stiva in ordinea citirii lor. Dupa ce toate numerele au fost depuse in stiva se vor
+executa urmatoarele operatii, pana cand nu mai exista numere in stiva:
+a) daca numarul de elemente din stiva este >= 2, acestea se vor extrage si se va depune in sirul Sir[], numarul de biti comuni
+dintre cele doua numere. 
+b) daca numarul de elemente din stiva este <=1 atunci acesta (numarul extras din stiva) se va depune in sirul Sir[].
+Aceesul la tabloul Sir[] se va realiza prin pointeri.
+
+Continutul vectorului Sir[] se va depune in fisierul out.txt.
+
+
+2. Se citesc n numere (n > 3) intregi fara semn (32 biti) din fisierul in.txt. Aceastea se vor depune 
+intr-o stiva in ordinea citirii lor. Dupa ce toate numerele au fost depuse in stiva se vor
+executa urmatoarele operatii, pana cand nu mai exista numere in stiva:
+a) daca numarul de elemente din stiva este >= 2, acestea se vor extrage si se va depune in sirul Sir[], numarul de biti de "1"
+din cele doua numere. 
+b) daca numarul de elemente din stiva este <=1 atunci acesta (numarul extras din stiva) se va depune in sirul Sir[] cu bitul "6" setat.
+Aceesul la tabloul Sir[] se va realiza prin pointeri.
+
+Continutul vectorului Sir[] se va depune in fisierul out.txt.

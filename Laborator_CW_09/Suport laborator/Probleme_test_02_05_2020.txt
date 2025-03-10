@@ -1,0 +1,26 @@
+Pentru afisarea verticala a unui numar pentru format din mai multe cifre (e.g. 43252) se poate
+folosi o stiva in care se vor depune resturile impartirilor la x (x fiind baza de numeratie). Pentru fiecare punct de rezolvat se va genera o noua functie cu prototipul
+void Punctul_x(void).
+1) Sa se genereze stiva pentru baza 8 pentru nu numar n de 5 cifre citit de la tastatura (nu e nevoie de afisare)
+2) Sa se depuna intr-o noua stiva toate cifrele din stiva de la 1) care au cel putin 2 biti setati.
+3) Sa se extraga si sa se afiseze toate numerele din stiva obtinuta la 2) care au bitul 0 si bitul 2 setat.
+
+Sa se masoare performantele (ca timp de executie) a algoritmilor de cautare binara si cautare liniara pentru urmatoarele intrari:
+a) sa se genereze un sir de date in ordine crescatoare de lungime 20000 de numere si care sa fie generate ca multipli de
+2.
+b) Pentru sirul generat la punctul a) ---> sa se caute numarul de pe pozitia 4 si sa se afiseze timpul de procesare pentru cautarea binara si liniara
+c) Pentru sirul generat la punctul a) ---> sa se caute numarul de pe pozitia 19935 si sa se afiseze timpul de procesare pentru cautarea binara si cautarea liniara.
+
+Exemple de masurare a timpului de exectutie:
+https://www.geeksforgeeks.org/measure-execution-time-with-high-precision-in-c-c/
+
+
+Pentru afisarea verticala a unui numar pentru format din mai multe cifre (e.g. 43252) se poate
+folosi o stiva in care se vor depune resturile impartirilor la x (x fiind baza de numeratie). Pentru fiecare punct de rezolvat se va genera o noua functie cu prototipul
+void Punctul_x(void).
+1) Sa se genereze stiva pentru baza 10 pentru nu numar n de 5 cifre citit de la tastatura. (nu e nevoie de afisare)
+2) Sa se depuna intr-o noua stiva toate cifrele din stiva de la 1) care sunt divizibile cu 2 folosind operatii pe biti.
+3) Sa se extraga si sa se afiseze toate numerele din stiva obtinuta la 2) care au bitul 1 si bitul 2 setat.
+
+
+

@@ -1,0 +1,38 @@
+1. Prezentare
+	Catalin-Virgil Briciu
+2. Ce o sa facem la laborator
+	Cautari (binara/liniara)
+	Pointeri 
+	Operatii pe biti
+	Backtracking
+	Recursivitate
+	Divide of Impera 
+	Greedy 
+3. Cum o sa lucram/split materie/laborator/teme
+	a) Prezentare curs
+	b) 2 - 3 noutati din IT 
+	c) Definirea problemelor de lucru (github - @Cata - trimite instructiuni pe Discord).
+			Nr. +0770235464 (whattsup) - @Busa Maria
+	d) Implementare probleme (la finalul celor 2 ore - o sa dam push in github)
+	e) Q & A( live katas )
+4. Aplicatii necesare
+	- Visual Studio
+	- github - via GUI (@Cata: to create repository ; adresele de mail)
+5. Q & A 
+	HW - microprocessor e construit din transistori - sumatoare
+	Inginer IT - 
+	Automatizari (Andrei Bumba); ce inseamana automatizare
+	Matematica
+	Bun/rau programator - impact
+
+
+
+	
+40-50 oameni 
+Arhitect de sistem
+Inginer specificatii/sistem - Inginer IT
+Software Project Manager - Inginer IT
+Software Architect - Inginer IT
+SW developer       - programator/inginer IT
+SW tester
+System tester

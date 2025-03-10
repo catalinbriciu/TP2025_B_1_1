@@ -1,0 +1,54 @@
+Recursivitate
+--------------------------------------
+1. Scrieti o functie recursiva care primeste ca paramentru un numar natural n si returneaza numarul obtinut din n prin eliminarea cifrelor impare. 
+2. Se citeste un numar natural n (n<=20). Afisati un desen format din caracterul * ca in exemplul de mai jos. Se vor folosi exclusiv subprograme recursive. 
+Exemplu: 
+Pentru n=3 se afiseaza 
+    * 
+  *** 
+***** 
+  *** 
+    * 
+3. Se citeste un numar natural n. Sa se descompuna ca suma de puteri crescatoare ale lui 2. Se vor folosi doar prelucrari/calcule realizate cu ajutorul functiilor implementate recursiv. 
+Exemplu: Pentru n=84 va afisa 4 16 64 (84 se descompune ca 4+16+64) 
+4. Sa se scrie o functie recursiva care primeste trei parametri : n- numar natural; c 1 si c2 cifre si returneaza numarul obtinut din n prin inlocuirea tuturor aparitiilor cifrei c1 cu c2.
+5. Sa se scrie un program recursive care sa rezolve expresia:
+E=1+3+5+7+…..+(2n-1)
+-----------------------------------------------------
+Backtracking
+-----------------------------------------------------
+1. Un algoritm genereaza în ordine crescatoare toate numerele de n cifre, folosind doar cifrele
+3, 5 si 7. Daca pentru n=5, primele 5 solutii generate sunt 33333, 33335, 33337,
+33353, 33355, precizati care sunt ultimele 3 solutii generate, în ordinea generarii.
+
+Raspuns: 77773, 77775, 77777 
+
+2. Scrieti un program care afiseaza pe ecran toate secventele de n litere (n numar natural par citit de la tastatura) din multimea {A,R,G,V), secvente care se pot construi respectand urmatoarele reguli: nu plasam doua litere identice una langa alta;trebuie sa utilizam exact n/2 litere R
+3. Sa se genereze toti vectorii cu n elemente in care sa fie 0 de m ori, 1 de p ori si 2 de q ori.
+3. Sa se genereze toate numere binare de 6 cifre care sa aiba 2 cifre de "0" si 4 cifre de "1".4. Sa se determine toate cuvintele ce contin numai literele a,b,c de lungime 10 care contin exact
+3 simboluri 'a'; 4 simboluri 'b' si 3 simboluri 'c'.
+5. Sa se determine toate variantele de pronosport cu 13 rezultate din (1,x,2) care contin
+exact n1 simboluri '1'; nx simboluri 'x' si n2 simboluri '2' ( cu conditia n1 + nx + n2 = 13 ). 
+
+------------------------------------------------------------
+DIVIDE ET IMPERA
+------------------------------------------------------------
+1. Se citeste un vector cu n elemente numere naturale. Sa se calculeze suma elementelor vectorului folosind divide et impera.
+2. Implementati quicksort.
+3. Se dau n - 1 numere naturale distincte intre 0 si n - 1. Scriind o functie de partitionare, determinati numarul lipsa.
+Exemplu: pentru n = 9 si vectorul {0 1 9 4 5 7 6 8 2}, numarul lipsa este 3.
+4. Sa se determine cate elemente pare are un vector
+5. Sa se verifice daca un vector contine numai numere pozitive sau numai numere negative.
+------------------------------------------------------------
+Greedy
+------------------------------------------------------------
+1.Se da o multime de numere pozitive, P si un numar M.
+Se cere determinarea unei submultimi a lui P a carui suma a elementelor sa fie cel mult M.
+2.Se da o tabla de sah n×n. Sa se arate punctele prin care trece un cal care porneste din punctul 1,1 în încercarea de a acoperi cât mai multe puncte posibile.
+Indicatie: la fiecare pas se alege acea mutare care plaseaza calul într-o pozitie din care la pasul urmator exista cât mai putine posibilitati de a muta din nou 
+3.Sa se determine submul?imea S a mul?imii finite A care are proprietatea ca:
+(i) S are m<=card A elemente
+(ii) Suma elementelor din S este maxima
+Exemplu:
+Fie A={5,1,7,5,4} si m=3.Solutia este S={5,5,7}
+4. Un comis-voiajor pleaca dintr-un oras, trebuie sa viziteze un numar de n orase si sa se întoarca în orasul de plecare cu efort minim. Se da matricea de vecinatati a celor n orase, precizându-se si distantele dintre ele.

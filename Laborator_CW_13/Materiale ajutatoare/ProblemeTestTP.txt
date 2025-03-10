@@ -1,0 +1,19 @@
+1) Sa se genereze toate numerele care se pot forma cu cifre aflate în ordine strictdescrescatoare, din multimea {2, 4, 6, 8} .
+2) Folosing Divide & Impera rezolvati urmatoarea problema. Se da un sir sortat. Gasiti numarul de elemente egale cu x din sir.Exemplu: pentru sirul {1 2 4 4 10 10 20} si x = 10, x apare de 2 ori in sir.
+3) Determinati minimul dintr-un vector de n numere, folosing Divide & Impera.
+4) La o casa de marcat sunt serviti n clienti (n?1000). Cunoscându-se timpul
+necesar de servire pentru fiecare client, sa se determine o ordine de
+servire a clientilor, astfel încât timpul mediu de asteptare sa fie minim.
+
+
+
+
+
+Anul 2:
+
+1) Sa se calculeze expresia E=1/(2*3)+2/(3*4)+...+n/((n+1)*(n+2)), utilizând o functie recursiva, unde n este un numar natural citit de la tastatura. 
+
+2) Scrieti o functie recursiva, care calculeaza suma elementelor pozitive dintr-un
+vector si produsul elementelor negative.
+
+3) Scrieti o functie recursiva care care determina maximul elementelor negative ale unui sir de numere întregi.

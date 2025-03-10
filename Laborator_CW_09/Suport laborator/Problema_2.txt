@@ -1,0 +1,6 @@
+1. Scrieti un program care citeste dintr-un fisier in.txt un sir de numere (nr > 4) intr-o stiva si care implementeaza 
+o masina de calcul care va extrage din varful stivei doua numere asupra carora se vor aplica urmatoarele reguli (prioritare):
+a) daca primul numar este mai mare decat 7 atunci se vor interschimba bitii 4-7 si se vor depune numerele in fisierul out.txt
+b) daca primul numar este mai mic decat 7, atunci se vor complementa toti bitii celui de-al doilea numar.
+c) daca mai exista in stiva doar un numar, atunci se va afisa pentru acesta numarul de biti de 1.
+

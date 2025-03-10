@@ -1,0 +1,95 @@
+- analiza problemei (citirea si "INTELEGEREA problemei).
+
+===================Analize cerintei=================
+1) Vreau o aplicatie care sa-mi calculeze operatii matematice.
+
+a) care trebuie sa fie operatiile matematice suportate 
+1) (+,-,/,*, %) - 1 zile.
+2) 1+ radical,ridicare la putere, exponentiere, logaritmare -- 3 zile
+
+b) interfata cu  utilizatorul: aplicatie desktop sau aplicate web.
+			1) o zi
+			2) 3 zile.
+			aplicatie web
+			1) 1.5 zile
+			2) 3.5 zile
+c) domeniul de valori (numere intregi, numere reale, numere in exponent-mantisa, numere subunitare, supraunitare).
+
+Output: aplicatie (.exe - timp si bani)
+
+==========================================================
+
+resurse de computare (cata memorie folosim) 
+
+a) sa o stochez in cel mai optim mod
+
+Cartea X - 45000 cuvinte; 6 litere; 15% spatiu
+
+Memorie: 45000 * 6 + 15%45000 = 250 KB. 
+
+b) search dupa cuvinte - 2 secunde maxim (cautare liniara - 4 sec, cautare binara - 1 sec, alt tip de cautare - 0.5 sec).
+
+==============
+0 TBS sau 1 TBS
+if(x == 2) {
+  //do smth
+} else {
+  //do smth
+}
+
+=========
+Almann
+if (x == 2) 
+{
+  //do smth
+} 
+else
+{
+ //do smth
+}
+
+=======
+unsigned char MatriceElemente[20][40];
+
+GetResult()
+
+GetResultComputedFromAddition(FirstNr,SecondNr);
+
+
+unsigned short int CalculateSumOfTwoNumbers(unsigned short int NumberOne, unsigned short NumberTwo) {
+	boolean isMaximumRangeOverflowed = FALSE;
+	//in case that sum of both numbers are overflowing in terms of maximum value on 16 bits, maximum range of short int needs to be returned; otherwise the sum of them;
+	if( (int)(NumberOne + NumberTwo) > 65535) {
+		isMaximumRangeOverflowed = TRUE;
+	} else {
+		//keep the already set value --> FALSE
+	}
+	if(TRUE == isMaximumRangeOverflowed) {
+		//if overflowed, return 65535; = DOESN'T MAKE SENSE
+		return 65535;
+	} else {
+		//sum of number one and number two - = DOESN'T MAKE SENSE
+		return (NumberOne + NumberTwo);
+	}
+}
+
+isResultAvailable/is_result_available = Hungarian Notation
+IsResultAvailable = CamelCase
+
+===========================TEMA PRIMUL LABORATOR===============
+Analiza problemei:
+- tabela are maxim 250 de elemente --> return value unsigned char (0 - 255)
+- numere pozitive intre 0 si 65535 --> tabela aleasa de tipul short int (0 - 65535)
+- de unde citim numerele (tastatura/fisiere) --- tastatura
+
+=====skeleton=========
+//hint; short int tab[20] --> CautareLiniara(&tab[0],element); 
+
+unsigned char CautareLiniara(short int * TablouCautare, short int ElementCautat) {
+	//fill with the code
+}
+
+===end skeleton=======
+
+DEADLINE: 24.02.2021, ora 23:59;
+==========================

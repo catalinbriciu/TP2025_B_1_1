@@ -1,0 +1,5 @@
+﻿  test.c
+C:\Users\COLOSSUS\source\repos\test\test\test.c(23,27): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\COLOSSUS\source\repos\test\test\test.c(25,15): warning C4552: '<<': result of expression not used
+C:\Users\COLOSSUS\source\repos\test\test\test.c(17): warning C4715: 'pop': not all control paths return a value
+  test.vcxproj -> C:\Users\COLOSSUS\source\repos\test\Debug\test.exe

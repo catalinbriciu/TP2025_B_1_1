@@ -1,0 +1,62 @@
+Notite_laborator_2
+==================
+
+Secventa de cod urmatoare:
+
+O(n2) O ( n x m) ---> m,n --> O(n2)
+-===============
+for(cnt = 0; count < n; count++) 
+	for(cnt2 = 0; cnt2 < m; count++
+================
+O(n2) 
+for(cnt = 0; count < n; count++) 
+{ 	while(cnt2 < m) {
+	// do smth
+	}
+}
+======================
+O(n3) --> O(n x m x t)
+=============
+for(cnt = 0; count < n; count++) 
+	for(cnt2 = 0; cnt2 < m; count++)
+		for(cnt3 = 0; cnt3 < t; count++)
+=======================================
+
+O(n log n)
+for(cnt = 0; count < n; count++) 
+	for(cnt2 = 0; cnt2 < sqrt(n); count++)
+	
+==================
+O(log n)
+for(cnt = 0; count < sqrt(n); count++)
+	
+========================Cautarea binara==========================
+a) SE APLICA DOAR PENTRU SIRURI ORDONATE!!!!!
+,
+
+1) short x
+	- signed short int ---> x este de tipul signed [-32768; +32768]
+	- unsigned short int [0; 65535]
+	
+	= signed short int 
+		x - 0 --> 0
+		x - 40000 --> -24000 (overflow)
+		x - -33000 ---> underflow ---> +832
+	= unsinged short int
+		 - 1 ---> 65534 (underflow)
+   
+   
+Transformare decimal to binara
+
+94 = 64 + 16 + 8 + 4 + 2 
+
+01011110
+
+64 = 2 ^ 6
+16 = 2 ^ 4
+8 = 2 ^ 3
+4 = 2 ^ 2
+2 = 2 ^ 1
+
+
+	
