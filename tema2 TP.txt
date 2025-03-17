@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+void SetBit(unsigned char *Variable, unsigned char BitPos);
+void ClearBit (unsigned char *Variable, unsigned char BitPos);
+unsigned char GetBit (unsigned char *Variable, unsigned char BitPos);
+
+
+void SetBit(unsigned char *Variable, unsigned char BitPos)
+{
+*Variable= *Variable | (1<<BitPos);
+}
+
+void ClearBit (unsigned char *Variable, unsigned char BitPos)
+{
+    *Variable= *Variable & ~(1<<BitPos);
+}
+
+unsigned char GetBit (unsigned char *Variable, unsigned char BitPos)
+{
+    return (*Variable>>BitPos) & 1;
+}
+
+int main(){
+    unsigned char var=235, pos=0;
+
+    printf("%d\n",GetBit(&var, pos));
+    SetBit(&var, pos);
+    printf("%d\n",GetBit(&var, pos));
+    ClearBit(&var, pos);
+    printf("%d",GetBit(&var, pos));
+    
+
+    return 0;
+}
